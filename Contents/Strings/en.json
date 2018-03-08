@@ -37,5 +37,6 @@
     "Channel updated to version %s": "Channel updated to version %s",
     "access_token": "Access Token (optional)",
     "authorize": "Authorize",
-    "hide_offline": "Hide Offline Channels"
+    "hide_offline": "Hide Offline Channels",
+    "main_layout": "Main Menu Layout (default: featured,top,games,search,followed,favorite_games)"
 }

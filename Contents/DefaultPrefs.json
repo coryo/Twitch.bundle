@@ -31,6 +31,12 @@
         "default": "{name},{views},{status}"
     },
     {
+        "id":      "main_layout",
+        "label":   "main_layout",
+        "type":    "text",
+        "default": "featured,top,games,search,followed,favorite_games"
+    },
+    {
         "id":    "access_token",
         "label": "access_token",
         "type":  "text"
