@@ -35,7 +35,7 @@ Getting an Access Token
 =======================
 
 1. At the bottom of the main menu in the channel, there will be an `Authorize` option.
-2. It will give you a url to go to in a web browser. (using a url shortener http://shoutkey.com url is valid for 5 min)
+2. It will give you a url to go to in a web browser. (using a url shortener http://shoutkey.com url is valid for 5 min. The URL is always https://id.twitch.tv/oauth2/authorize?scope=user%3Aread%3Aemail&redirect_uri=http%3A%2F%2Flocalhost&response_type=token&client_id=r797t9e3qhgxayiisuqdxxkh5tj7mlz)
 3. that redirects you to a Twitch page to authorize the channel to use your account.
 4. When you authorize it redirects your browser to `http://localhost/#access_token=<access_token>&scope=user_read` which is a dead page.
 5. copy the `<access_token>` string out of that url and put it in the TwitchMod channel preferences using the web interface.
